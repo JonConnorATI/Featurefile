@@ -1,7 +1,7 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Grades.feature");
 formatter.feature({
   "line": 1,
-  "name": "Grades for different Registration Years",
+  "name": "Grades for different Registration Years. All boundaries and partitions.",
   "description": "\r\nCalculate student grades from thier exam score.\r\n\r\nThe rules are:\r\nFor Reg Year\u003c\u003d15 score less than 50 a fail, 50 to 59 a Pass and 60 or over a Merit.\r\nFor Reg Year\u003e\u003d16 score less than 50 a fail, 50 to 64 a Pass, 65 to 79 a Merit and 80 or over a Distinction.",
   "id": "grades-for-different-registration-years",
   "keyword": "Feature"
